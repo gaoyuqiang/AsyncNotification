@@ -21,14 +21,16 @@
         _label = [[UILabel alloc] initWithFrame:CGRectMake(10, 10, 200, 30)];
         _label.text = @"test";
         
-        [[AsyncNotification share] an_observer:@"comment" block:^(id object){
-            _label.text = object;
-        }];
         [self addSubview:_label];
     }
     
     return self;
 }
 
-
+- (void)setModel:(Foo *)model {
+    _model = model;
+//    [[AsyncNotification share] an_observer:self name:@"comment" block:^(id object) {
+//        _label.text = object;
+//    }];
+}
 @end

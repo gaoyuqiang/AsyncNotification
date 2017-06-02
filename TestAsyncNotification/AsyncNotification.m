@@ -8,9 +8,12 @@
 
 #import "AsyncNotification.h"
 
+@implementation ANNotificationModel
+
+@end
+
 @interface AsyncNotification ()
 
-@property(nonatomic, strong) NSMutableDictionary *dic;
 
 @end
 @implementation AsyncNotification
@@ -27,25 +30,35 @@
 
 - (instancetype)init {
     if (self = [super init]) {
-        _dic = [NSMutableDictionary dictionary];
+        _dic = [NSMapTable mapTableWithKeyOptions:NSPointerFunctionsWeakMemory valueOptions:NSPointerFunctionsStrongMemory];
     }
     
     return self;
 }
 
-- (void)an_observer:(NSString *)key block:(ANNotificationBlock)block {
-    NSMutableArray *blocks = [_dic objectForKey:key] == nil ? [NSMutableArray array] : [_dic objectForKey:key];
+- (void)an_observer:(id)observer name:(NSString *)name block:(ANNotificationBlock)block {
+    NSMutableArray *models = [_dic objectForKey:observer] == nil ? [NSMutableArray array] : [_dic objectForKey:observer];
     
-    //添加进入
-    [blocks addObject:block];
-    [_dic setObject:blocks forKey:key];
+    //生成model
+    ANNotificationModel *model = [[ANNotificationModel alloc] init];
+    model.name = name;
+    model.block = block;
+    //存入model
+    [models addObject:model];
+    [_dic setObject:models forKey:observer];
 }
 
-- (void)an_notify:(NSString *)key object:(id)object {
-    NSMutableArray *blocks = [_dic objectForKey:key];
-    for (ANNotificationBlock block in blocks) {
-        if (block) {
-            block(object);
+- (void)an_notify:(NSString *)name object1:(id)object1 object2:(id)object2 {
+    //遍历所有的model 如果name匹配 则invoke block
+    for (id observer in _dic) {
+        NSMutableArray <ANNotificationModel *>*models = [_dic objectForKey:observer];
+        
+        for (ANNotificationModel *model in models) {
+            if ([model.name isEqualToString:name]) {
+                if (model.block) {
+                    model.block(object1, object2);
+                }
+            }
         }
     }
 }

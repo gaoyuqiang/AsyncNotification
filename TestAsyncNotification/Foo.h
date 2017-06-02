@@ -11,8 +11,8 @@
 @interface Foo : NSObject
 
 //id
-@property(nonatomic, strong) NSString *commentId;
+@property(nonatomic, strong) NSString *answerId;
 //内容
-@property(nonatomic, strong) NSString *content;
+@property(nonatomic, strong) NSString *commentCount;
 
 @end

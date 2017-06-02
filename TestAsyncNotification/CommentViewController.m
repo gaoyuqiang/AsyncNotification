@@ -6,14 +6,14 @@
 //  Copyright © 2017年 58. All rights reserved.
 //
 
-#import "ThreeViewController.h"
+#import "CommentViewController.h"
 #import "AsyncNotification.h"
 
-@interface ThreeViewController ()
+@interface CommentViewController ()
 
 @end
 
-@implementation ThreeViewController
+@implementation CommentViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,7 +24,9 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     _count++;
-    [[AsyncNotification share] an_notify:@"comment" object1:_answerId object2:[NSString stringWithFormat:@"%d", _count]];
+    [[AsyncNotification share] an_notify:@"comment" objectId:_answerId object:[NSString stringWithFormat:@"%d", _count]];
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"" message:@"评论数加1" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil];
+    [alertView show];
 }
 
 - (void)didReceiveMemoryWarning {

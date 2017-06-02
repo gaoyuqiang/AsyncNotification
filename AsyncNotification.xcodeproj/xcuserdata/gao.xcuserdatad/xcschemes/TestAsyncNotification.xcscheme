@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3EAAF26A1EE0601C0092AA4A"
-               BuildableName = "TestAsyncNotification.app"
-               BlueprintName = "TestAsyncNotification"
-               ReferencedContainer = "container:TestAsyncNotification.xcodeproj">
+               BuildableName = "AsyncNotification.app"
+               BlueprintName = "AsyncNotification"
+               ReferencedContainer = "container:AsyncNotification.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3EAAF2831EE0601C0092AA4A"
-               BuildableName = "TestAsyncNotificationTests.xctest"
-               BlueprintName = "TestAsyncNotificationTests"
-               ReferencedContainer = "container:TestAsyncNotification.xcodeproj">
+               BuildableName = "AsyncNotificationTests.xctest"
+               BlueprintName = "AsyncNotificationTests"
+               ReferencedContainer = "container:AsyncNotification.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3EAAF28E1EE0601C0092AA4A"
-               BuildableName = "TestAsyncNotificationUITests.xctest"
-               BlueprintName = "TestAsyncNotificationUITests"
-               ReferencedContainer = "container:TestAsyncNotification.xcodeproj">
+               BuildableName = "AsyncNotificationUITests.xctest"
+               BlueprintName = "AsyncNotificationUITests"
+               ReferencedContainer = "container:AsyncNotification.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3EAAF26A1EE0601C0092AA4A"
-            BuildableName = "TestAsyncNotification.app"
-            BlueprintName = "TestAsyncNotification"
-            ReferencedContainer = "container:TestAsyncNotification.xcodeproj">
+            BuildableName = "AsyncNotification.app"
+            BlueprintName = "AsyncNotification"
+            ReferencedContainer = "container:AsyncNotification.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3EAAF26A1EE0601C0092AA4A"
-            BuildableName = "TestAsyncNotification.app"
-            BlueprintName = "TestAsyncNotification"
-            ReferencedContainer = "container:TestAsyncNotification.xcodeproj">
+            BuildableName = "AsyncNotification.app"
+            BlueprintName = "AsyncNotification"
+            ReferencedContainer = "container:AsyncNotification.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3EAAF26A1EE0601C0092AA4A"
-            BuildableName = "TestAsyncNotification.app"
-            BlueprintName = "TestAsyncNotification"
-            ReferencedContainer = "container:TestAsyncNotification.xcodeproj">
+            BuildableName = "AsyncNotification.app"
+            BlueprintName = "AsyncNotification"
+            ReferencedContainer = "container:AsyncNotification.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -15,12 +15,10 @@
 		3EAAF27E1EE0601C0092AA4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EAAF27C1EE0601C0092AA4A /* LaunchScreen.storyboard */; };
 		3EAAF2891EE0601C0092AA4A /* TestAsyncNotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAAF2881EE0601C0092AA4A /* TestAsyncNotificationTests.m */; };
 		3EAAF2941EE0601C0092AA4A /* TestAsyncNotificationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAAF2931EE0601C0092AA4A /* TestAsyncNotificationUITests.m */; };
-		3EAAF2A31EE0607F0092AA4A /* Foo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAAF2A21EE0607F0092AA4A /* Foo.m */; };
-		3EAAF2A61EE060BE0092AA4A /* BagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAAF2A51EE060BE0092AA4A /* BagView.m */; };
+		3EAAF2A31EE0607F0092AA4A /* Answer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAAF2A21EE0607F0092AA4A /* Answer.m */; };
 		3EAAF2A91EE0619B0092AA4A /* AsyncNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAAF2A81EE0619B0092AA4A /* AsyncNotification.m */; };
-		3EAAF2AC1EE155890092AA4A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAAF2AB1EE155890092AA4A /* SecondViewController.m */; };
-		3EAAF2AF1EE155930092AA4A /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAAF2AE1EE155930092AA4A /* ThreeViewController.m */; };
-		3EAAF2B21EE166E40092AA4A /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAAF2B11EE166E40092AA4A /* MyTableViewCell.m */; };
+		3EAAF2AF1EE155930092AA4A /* CommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAAF2AE1EE155930092AA4A /* CommentViewController.m */; };
+		3EAAF2B21EE166E40092AA4A /* AnswerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAAF2B11EE166E40092AA4A /* AnswerCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3EAAF26B1EE0601C0092AA4A /* TestAsyncNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAsyncNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EAAF26B1EE0601C0092AA4A /* AsyncNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EAAF26F1EE0601C0092AA4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3EAAF2711EE0601C0092AA4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3EAAF2721EE0601C0092AA4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,24 +49,20 @@
 		3EAAF27A1EE0601C0092AA4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EAAF27D1EE0601C0092AA4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EAAF27F1EE0601C0092AA4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3EAAF2841EE0601C0092AA4A /* TestAsyncNotificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAsyncNotificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EAAF2841EE0601C0092AA4A /* AsyncNotificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncNotificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EAAF2881EE0601C0092AA4A /* TestAsyncNotificationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAsyncNotificationTests.m; sourceTree = "<group>"; };
 		3EAAF28A1EE0601C0092AA4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3EAAF28F1EE0601C0092AA4A /* TestAsyncNotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAsyncNotificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EAAF28F1EE0601C0092AA4A /* AsyncNotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncNotificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EAAF2931EE0601C0092AA4A /* TestAsyncNotificationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAsyncNotificationUITests.m; sourceTree = "<group>"; };
 		3EAAF2951EE0601C0092AA4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3EAAF2A11EE0607F0092AA4A /* Foo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foo.h; sourceTree = "<group>"; };
-		3EAAF2A21EE0607F0092AA4A /* Foo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Foo.m; sourceTree = "<group>"; };
-		3EAAF2A41EE060BE0092AA4A /* BagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BagView.h; sourceTree = "<group>"; };
-		3EAAF2A51EE060BE0092AA4A /* BagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BagView.m; sourceTree = "<group>"; };
+		3EAAF2A11EE0607F0092AA4A /* Answer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Answer.h; sourceTree = "<group>"; };
+		3EAAF2A21EE0607F0092AA4A /* Answer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Answer.m; sourceTree = "<group>"; };
 		3EAAF2A71EE0619B0092AA4A /* AsyncNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncNotification.h; sourceTree = "<group>"; };
 		3EAAF2A81EE0619B0092AA4A /* AsyncNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncNotification.m; sourceTree = "<group>"; };
-		3EAAF2AA1EE155890092AA4A /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		3EAAF2AB1EE155890092AA4A /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		3EAAF2AD1EE155930092AA4A /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
-		3EAAF2AE1EE155930092AA4A /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
-		3EAAF2B01EE166E40092AA4A /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
-		3EAAF2B11EE166E40092AA4A /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		3EAAF2AD1EE155930092AA4A /* CommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentViewController.h; sourceTree = "<group>"; };
+		3EAAF2AE1EE155930092AA4A /* CommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentViewController.m; sourceTree = "<group>"; };
+		3EAAF2B01EE166E40092AA4A /* AnswerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerCell.h; sourceTree = "<group>"; };
+		3EAAF2B11EE166E40092AA4A /* AnswerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,9 +103,9 @@
 		3EAAF26C1EE0601C0092AA4A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3EAAF26B1EE0601C0092AA4A /* TestAsyncNotification.app */,
-				3EAAF2841EE0601C0092AA4A /* TestAsyncNotificationTests.xctest */,
-				3EAAF28F1EE0601C0092AA4A /* TestAsyncNotificationUITests.xctest */,
+				3EAAF26B1EE0601C0092AA4A /* AsyncNotification.app */,
+				3EAAF2841EE0601C0092AA4A /* AsyncNotificationTests.xctest */,
+				3EAAF28F1EE0601C0092AA4A /* AsyncNotificationUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,20 +115,9 @@
 			children = (
 				3EAAF2711EE0601C0092AA4A /* AppDelegate.h */,
 				3EAAF2721EE0601C0092AA4A /* AppDelegate.m */,
-				3EAAF2741EE0601C0092AA4A /* ViewController.h */,
-				3EAAF2751EE0601C0092AA4A /* ViewController.m */,
-				3EAAF2B01EE166E40092AA4A /* MyTableViewCell.h */,
-				3EAAF2B11EE166E40092AA4A /* MyTableViewCell.m */,
-				3EAAF2AA1EE155890092AA4A /* SecondViewController.h */,
-				3EAAF2AB1EE155890092AA4A /* SecondViewController.m */,
-				3EAAF2AD1EE155930092AA4A /* ThreeViewController.h */,
-				3EAAF2AE1EE155930092AA4A /* ThreeViewController.m */,
-				3EAAF2A71EE0619B0092AA4A /* AsyncNotification.h */,
-				3EAAF2A81EE0619B0092AA4A /* AsyncNotification.m */,
-				3EAAF2A41EE060BE0092AA4A /* BagView.h */,
-				3EAAF2A51EE060BE0092AA4A /* BagView.m */,
-				3EAAF2A11EE0607F0092AA4A /* Foo.h */,
-				3EAAF2A21EE0607F0092AA4A /* Foo.m */,
+				3EAAF2B51EE1A02F0092AA4A /* 答案页 */,
+				3EAAF2B61EE1A03D0092AA4A /* 评论页 */,
+				3EAAF2B31EE19F7A0092AA4A /* AsyncNotification */,
 				3EAAF2771EE0601C0092AA4A /* Main.storyboard */,
 				3EAAF27A1EE0601C0092AA4A /* Assets.xcassets */,
 				3EAAF27C1EE0601C0092AA4A /* LaunchScreen.storyboard */,
@@ -170,12 +153,51 @@
 			path = TestAsyncNotificationUITests;
 			sourceTree = "<group>";
 		};
+		3EAAF2B31EE19F7A0092AA4A /* AsyncNotification */ = {
+			isa = PBXGroup;
+			children = (
+				3EAAF2A71EE0619B0092AA4A /* AsyncNotification.h */,
+				3EAAF2A81EE0619B0092AA4A /* AsyncNotification.m */,
+			);
+			name = AsyncNotification;
+			sourceTree = "<group>";
+		};
+		3EAAF2B41EE1A00A0092AA4A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3EAAF2A11EE0607F0092AA4A /* Answer.h */,
+				3EAAF2A21EE0607F0092AA4A /* Answer.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		3EAAF2B51EE1A02F0092AA4A /* 答案页 */ = {
+			isa = PBXGroup;
+			children = (
+				3EAAF2741EE0601C0092AA4A /* ViewController.h */,
+				3EAAF2751EE0601C0092AA4A /* ViewController.m */,
+				3EAAF2B01EE166E40092AA4A /* AnswerCell.h */,
+				3EAAF2B11EE166E40092AA4A /* AnswerCell.m */,
+				3EAAF2B41EE1A00A0092AA4A /* model */,
+			);
+			name = "答案页";
+			sourceTree = "<group>";
+		};
+		3EAAF2B61EE1A03D0092AA4A /* 评论页 */ = {
+			isa = PBXGroup;
+			children = (
+				3EAAF2AD1EE155930092AA4A /* CommentViewController.h */,
+				3EAAF2AE1EE155930092AA4A /* CommentViewController.m */,
+			);
+			name = "评论页";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3EAAF26A1EE0601C0092AA4A /* TestAsyncNotification */ = {
+		3EAAF26A1EE0601C0092AA4A /* AsyncNotification */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3EAAF2981EE0601C0092AA4A /* Build configuration list for PBXNativeTarget "TestAsyncNotification" */;
+			buildConfigurationList = 3EAAF2981EE0601C0092AA4A /* Build configuration list for PBXNativeTarget "AsyncNotification" */;
 			buildPhases = (
 				3EAAF2671EE0601C0092AA4A /* Sources */,
 				3EAAF2681EE0601C0092AA4A /* Frameworks */,
@@ -185,14 +207,14 @@
 			);
 			dependencies = (
 			);
-			name = TestAsyncNotification;
+			name = AsyncNotification;
 			productName = TestAsyncNotification;
-			productReference = 3EAAF26B1EE0601C0092AA4A /* TestAsyncNotification.app */;
+			productReference = 3EAAF26B1EE0601C0092AA4A /* AsyncNotification.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3EAAF2831EE0601C0092AA4A /* TestAsyncNotificationTests */ = {
+		3EAAF2831EE0601C0092AA4A /* AsyncNotificationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3EAAF29B1EE0601C0092AA4A /* Build configuration list for PBXNativeTarget "TestAsyncNotificationTests" */;
+			buildConfigurationList = 3EAAF29B1EE0601C0092AA4A /* Build configuration list for PBXNativeTarget "AsyncNotificationTests" */;
 			buildPhases = (
 				3EAAF2801EE0601C0092AA4A /* Sources */,
 				3EAAF2811EE0601C0092AA4A /* Frameworks */,
@@ -203,14 +225,14 @@
 			dependencies = (
 				3EAAF2861EE0601C0092AA4A /* PBXTargetDependency */,
 			);
-			name = TestAsyncNotificationTests;
+			name = AsyncNotificationTests;
 			productName = TestAsyncNotificationTests;
-			productReference = 3EAAF2841EE0601C0092AA4A /* TestAsyncNotificationTests.xctest */;
+			productReference = 3EAAF2841EE0601C0092AA4A /* AsyncNotificationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3EAAF28E1EE0601C0092AA4A /* TestAsyncNotificationUITests */ = {
+		3EAAF28E1EE0601C0092AA4A /* AsyncNotificationUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3EAAF29E1EE0601C0092AA4A /* Build configuration list for PBXNativeTarget "TestAsyncNotificationUITests" */;
+			buildConfigurationList = 3EAAF29E1EE0601C0092AA4A /* Build configuration list for PBXNativeTarget "AsyncNotificationUITests" */;
 			buildPhases = (
 				3EAAF28B1EE0601C0092AA4A /* Sources */,
 				3EAAF28C1EE0601C0092AA4A /* Frameworks */,
@@ -221,9 +243,9 @@
 			dependencies = (
 				3EAAF2911EE0601C0092AA4A /* PBXTargetDependency */,
 			);
-			name = TestAsyncNotificationUITests;
+			name = AsyncNotificationUITests;
 			productName = TestAsyncNotificationUITests;
-			productReference = 3EAAF28F1EE0601C0092AA4A /* TestAsyncNotificationUITests.xctest */;
+			productReference = 3EAAF28F1EE0601C0092AA4A /* AsyncNotificationUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -251,7 +273,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3EAAF2661EE0601C0092AA4A /* Build configuration list for PBXProject "TestAsyncNotification" */;
+			buildConfigurationList = 3EAAF2661EE0601C0092AA4A /* Build configuration list for PBXProject "AsyncNotification" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -264,9 +286,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3EAAF26A1EE0601C0092AA4A /* TestAsyncNotification */,
-				3EAAF2831EE0601C0092AA4A /* TestAsyncNotificationTests */,
-				3EAAF28E1EE0601C0092AA4A /* TestAsyncNotificationUITests */,
+				3EAAF26A1EE0601C0092AA4A /* AsyncNotification */,
+				3EAAF2831EE0601C0092AA4A /* AsyncNotificationTests */,
+				3EAAF28E1EE0601C0092AA4A /* AsyncNotificationUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -303,15 +325,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EAAF2A31EE0607F0092AA4A /* Foo.m in Sources */,
+				3EAAF2A31EE0607F0092AA4A /* Answer.m in Sources */,
 				3EAAF2761EE0601C0092AA4A /* ViewController.m in Sources */,
 				3EAAF2731EE0601C0092AA4A /* AppDelegate.m in Sources */,
-				3EAAF2B21EE166E40092AA4A /* MyTableViewCell.m in Sources */,
-				3EAAF2AC1EE155890092AA4A /* SecondViewController.m in Sources */,
+				3EAAF2B21EE166E40092AA4A /* AnswerCell.m in Sources */,
 				3EAAF2A91EE0619B0092AA4A /* AsyncNotification.m in Sources */,
 				3EAAF2701EE0601C0092AA4A /* main.m in Sources */,
-				3EAAF2A61EE060BE0092AA4A /* BagView.m in Sources */,
-				3EAAF2AF1EE155930092AA4A /* ThreeViewController.m in Sources */,
+				3EAAF2AF1EE155930092AA4A /* CommentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,12 +356,12 @@
 /* Begin PBXTargetDependency section */
 		3EAAF2861EE0601C0092AA4A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3EAAF26A1EE0601C0092AA4A /* TestAsyncNotification */;
+			target = 3EAAF26A1EE0601C0092AA4A /* AsyncNotification */;
 			targetProxy = 3EAAF2851EE0601C0092AA4A /* PBXContainerItemProxy */;
 		};
 		3EAAF2911EE0601C0092AA4A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3EAAF26A1EE0601C0092AA4A /* TestAsyncNotification */;
+			target = 3EAAF26A1EE0601C0092AA4A /* AsyncNotification */;
 			targetProxy = 3EAAF2901EE0601C0092AA4A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -488,7 +508,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = aa.TestAsyncNotificationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestAsyncNotification.app/TestAsyncNotification";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsyncNotification.app/AsyncNotification";
 			};
 			name = Debug;
 		};
@@ -500,7 +520,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = aa.TestAsyncNotificationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestAsyncNotification.app/TestAsyncNotification";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsyncNotification.app/AsyncNotification";
 			};
 			name = Release;
 		};
@@ -529,7 +549,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3EAAF2661EE0601C0092AA4A /* Build configuration list for PBXProject "TestAsyncNotification" */ = {
+		3EAAF2661EE0601C0092AA4A /* Build configuration list for PBXProject "AsyncNotification" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3EAAF2961EE0601C0092AA4A /* Debug */,
@@ -538,7 +558,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3EAAF2981EE0601C0092AA4A /* Build configuration list for PBXNativeTarget "TestAsyncNotification" */ = {
+		3EAAF2981EE0601C0092AA4A /* Build configuration list for PBXNativeTarget "AsyncNotification" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3EAAF2991EE0601C0092AA4A /* Debug */,
@@ -547,7 +567,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3EAAF29B1EE0601C0092AA4A /* Build configuration list for PBXNativeTarget "TestAsyncNotificationTests" */ = {
+		3EAAF29B1EE0601C0092AA4A /* Build configuration list for PBXNativeTarget "AsyncNotificationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3EAAF29C1EE0601C0092AA4A /* Debug */,
@@ -556,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3EAAF29E1EE0601C0092AA4A /* Build configuration list for PBXNativeTarget "TestAsyncNotificationUITests" */ = {
+		3EAAF29E1EE0601C0092AA4A /* Build configuration list for PBXNativeTarget "AsyncNotificationUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3EAAF29F1EE0601C0092AA4A /* Debug */,

@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-@interface ThreeViewController : UIViewController
+@interface CommentViewController : UIViewController
 
 @property(nonatomic, strong) NSString *answerId;
 @property(nonatomic, assign) int count;

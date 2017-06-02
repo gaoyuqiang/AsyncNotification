@@ -65,18 +65,18 @@
     });
 }
 
-- (void)an_notify:(NSString *)name object1:(id)object1 object2:(id)object2 {
+- (void)an_notify:(NSString *)name objectId:(id)objectId object:(id)object {
     dispatch_async(_queue, ^{
         //遍历所有的model 如果name匹配 则invoke block
         for (id observer in _dic) {
             NSMutableArray <ANNotificationModel *>*models = [_dic objectForKey:observer];
             
             for (ANNotificationModel *model in models) {
-                if ([model.name isEqualToString:name] && [model.objectId isEqualToString:object1]) {
+                if ([model.name isEqualToString:name] && [model.objectId isEqualToString:objectId]) {
                     if (model.block) {
                         //主队列执行
                         dispatch_async(dispatch_get_main_queue(), ^{
-                            model.block(object1, object2);
+                            model.block(objectId, object);
                         });
                     }
                 }

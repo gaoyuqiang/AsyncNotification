@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Foo.h"
+#import "Answer.h"
 
-@interface MyTableViewCell : UITableViewCell
+@interface AnswerCell : UITableViewCell
 
-@property(nonatomic, strong) Foo *model;
+@property(nonatomic, strong) Answer *model;
 
 @end

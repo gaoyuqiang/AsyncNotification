@@ -8,11 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Foo : NSObject
+@interface Answer : NSObject
 
 //id
 @property(nonatomic, strong) NSString *answerId;
 //内容
+@property(nonatomic, strong) NSString *content;
+//评论数
 @property(nonatomic, strong) NSString *commentCount;
 
 @end

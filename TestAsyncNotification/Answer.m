@@ -6,8 +6,8 @@
 //  Copyright © 2017年 58. All rights reserved.
 //
 
-#import "Foo.h"
+#import "Answer.h"
 
-@implementation Foo
+@implementation Answer
 
 @end

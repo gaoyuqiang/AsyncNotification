@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-typedef void(^ANNotificationBlock)(id object1, id object2);
+typedef void(^ANNotificationBlock)(id objectId, id object);
 
 
 @interface ANNotificationModel : NSObject
@@ -27,6 +27,6 @@ typedef void(^ANNotificationBlock)(id object1, id object2);
 - (void)an_observer:(id)observer name:(NSString *)name objectId:(NSString *)objectId block:(ANNotificationBlock)block;
 
 //发送通知
-- (void)an_notify:(NSString *)name object1:(id)object1 object2:(id)object2;
+- (void)an_notify:(NSString *)name objectId:(id)objectId object:(id)object;
 
 @end

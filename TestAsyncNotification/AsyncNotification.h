@@ -21,8 +21,6 @@ typedef void(^ANNotificationBlock)(id object1, id object2);
 
 @interface AsyncNotification : NSObject
 
-@property(nonatomic, strong) NSMapTable <id, NSMutableArray<ANNotificationModel *>*>*dic;// key:id, value:nsarray->nsarray里放了model
-
 + (instancetype)share;
 
 //添加监听

@@ -15,6 +15,9 @@
 		3EAAF27E1EE0601C0092AA4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EAAF27C1EE0601C0092AA4A /* LaunchScreen.storyboard */; };
 		3EAAF2891EE0601C0092AA4A /* TestAsyncNotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAAF2881EE0601C0092AA4A /* TestAsyncNotificationTests.m */; };
 		3EAAF2941EE0601C0092AA4A /* TestAsyncNotificationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAAF2931EE0601C0092AA4A /* TestAsyncNotificationUITests.m */; };
+		3EAAF2A31EE0607F0092AA4A /* Foo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAAF2A21EE0607F0092AA4A /* Foo.m */; };
+		3EAAF2A61EE060BE0092AA4A /* BagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAAF2A51EE060BE0092AA4A /* BagView.m */; };
+		3EAAF2A91EE0619B0092AA4A /* AsyncNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAAF2A81EE0619B0092AA4A /* AsyncNotification.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		3EAAF28F1EE0601C0092AA4A /* TestAsyncNotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAsyncNotificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EAAF2931EE0601C0092AA4A /* TestAsyncNotificationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAsyncNotificationUITests.m; sourceTree = "<group>"; };
 		3EAAF2951EE0601C0092AA4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EAAF2A11EE0607F0092AA4A /* Foo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foo.h; sourceTree = "<group>"; };
+		3EAAF2A21EE0607F0092AA4A /* Foo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Foo.m; sourceTree = "<group>"; };
+		3EAAF2A41EE060BE0092AA4A /* BagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BagView.h; sourceTree = "<group>"; };
+		3EAAF2A51EE060BE0092AA4A /* BagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BagView.m; sourceTree = "<group>"; };
+		3EAAF2A71EE0619B0092AA4A /* AsyncNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncNotification.h; sourceTree = "<group>"; };
+		3EAAF2A81EE0619B0092AA4A /* AsyncNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncNotification.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				3EAAF2721EE0601C0092AA4A /* AppDelegate.m */,
 				3EAAF2741EE0601C0092AA4A /* ViewController.h */,
 				3EAAF2751EE0601C0092AA4A /* ViewController.m */,
+				3EAAF2A71EE0619B0092AA4A /* AsyncNotification.h */,
+				3EAAF2A81EE0619B0092AA4A /* AsyncNotification.m */,
+				3EAAF2A41EE060BE0092AA4A /* BagView.h */,
+				3EAAF2A51EE060BE0092AA4A /* BagView.m */,
+				3EAAF2A11EE0607F0092AA4A /* Foo.h */,
+				3EAAF2A21EE0607F0092AA4A /* Foo.m */,
 				3EAAF2771EE0601C0092AA4A /* Main.storyboard */,
 				3EAAF27A1EE0601C0092AA4A /* Assets.xcassets */,
 				3EAAF27C1EE0601C0092AA4A /* LaunchScreen.storyboard */,
@@ -273,9 +288,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EAAF2A31EE0607F0092AA4A /* Foo.m in Sources */,
 				3EAAF2761EE0601C0092AA4A /* ViewController.m in Sources */,
 				3EAAF2731EE0601C0092AA4A /* AppDelegate.m in Sources */,
+				3EAAF2A91EE0619B0092AA4A /* AsyncNotification.m in Sources */,
 				3EAAF2701EE0601C0092AA4A /* main.m in Sources */,
+				3EAAF2A61EE060BE0092AA4A /* BagView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

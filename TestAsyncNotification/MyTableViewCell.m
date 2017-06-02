@@ -32,11 +32,9 @@
     
     _label.text = model.commentCount;
     
-    [[AsyncNotification share] an_observer:self name:@"comment" block:^(id object1, id object2) {
-        if ([object1 isEqualToString:_model.answerId]) {
-            _model.commentCount = object2;
-            _label.text = object2;
-        }
+    [[AsyncNotification share] an_observer:self name:@"comment" objectId:_model.answerId block:^(id object1, id object2) {
+        _model.commentCount = object2;
+        _label.text = object2;
     }];
 }
 

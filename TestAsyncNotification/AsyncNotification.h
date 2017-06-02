@@ -14,6 +14,7 @@ typedef void(^ANNotificationBlock)(id object1, id object2);
 @interface ANNotificationModel : NSObject
 
 @property(nonatomic, strong) NSString *name;
+@property(nonatomic, strong) NSString *objectId;
 @property(nonatomic, copy)  ANNotificationBlock block;
 
 @end
@@ -25,7 +26,7 @@ typedef void(^ANNotificationBlock)(id object1, id object2);
 + (instancetype)share;
 
 //添加监听
-- (void)an_observer:(id)observer name:(NSString *)name block:(ANNotificationBlock)block;
+- (void)an_observer:(id)observer name:(NSString *)name objectId:(NSString *)objectId block:(ANNotificationBlock)block;
 
 //发送通知
 - (void)an_notify:(NSString *)name object1:(id)object1 object2:(id)object2;
